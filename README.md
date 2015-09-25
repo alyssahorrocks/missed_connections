@@ -1,29 +1,27 @@
-#_Missed Connections_
+# Missed Connections
 
-#### _It keeps track of search keywords and returns missed connection articles to a user, 9/3/2015_
+#### This group project was created after learning Ruby. It keeps track of search keywords and returns missed connection articles to a user. {9/3/2015}
 
-#### By _Alyssa Horrocks, Austin Kincaid, Jessica Joly, & Jennifer Bell_
+##### By Alyssa Horrocks, Austin Kincaid, Jessica Joly, & Jennifer Bell
 
 ## Description
 
-_Users can sign up with their name and e-mail. They can log into missed connections and create keywords to search missed connections. When the search is run, it will return useable links that match their user-specific keywords. Users can view the body text and visit the source material if desired. Ideally, it would run on a server constantly, update the list of connections, and notify the user when new connections appear based on their keywords._
+Users can sign up with their name and e-mail. They can log into missed connections and create keywords to search missed connections. When the search is run, it will return useable links that match their user-specific keywords. Users can view the body text and visit the source material if desired. Ideally, it would run on a server constantly, update the list of connections, and notify the user when new connections appear based on their keywords.
 
-_We based our scraping methods on the Viking Code School's tutorial here (#thanks): http://www.vikingcodeschool.com/posts/web-scraping-craigslist-with-rubys-mechanize-gem_
+We based our scraping methods on the Viking Code School's tutorial here (#thanks): http://www.vikingcodeschool.com/posts/web-scraping-craigslist-with-rubys-mechanize-gem
 
 ## Setup
 
-_This application uses Ruby, Sinatra, Nokogiri gem, Bootstrap, and Mechanize gem._
+This application uses Ruby, Sinatra, Nokogiri gem, Bootstrap, and Mechanize gem.
 
-* git clone https://github.com/ahorrocks2/missed_connections.git
-* rake db:create
-* rake db:schema:load
-* rake db:test:prepare
+* `git clone https://github.com/ahorrocks2/missed_connections.git`
+* `rake db:create`
+* `rake db:schema:load`
+* `rake db:test:prepare`
 * start Sinatra with ruby app.rb
-
-*Enjoy!
+* Enjoy!
 
 ### Legal
-
 
 Copyright (c) 2015 **Alyssa Horrocks, Austin Kincaid, Jessica Joly, & Jennifer Bell**
 
